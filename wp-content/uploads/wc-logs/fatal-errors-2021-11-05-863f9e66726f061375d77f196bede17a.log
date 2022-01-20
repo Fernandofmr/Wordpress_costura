@@ -1,0 +1,131 @@
+2021-11-05T12:37:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257a7954e', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 33
+
+2021-11-05T12:38:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 33
+
+2021-11-05T12:39:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 33
+
+2021-11-05T12:40:00+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 33
+
+2021-11-05T12:54:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 33
+
+2021-11-05T12:54:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 33
+
+2021-11-05T12:57:29+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 33
+
+2021-11-05T12:57:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 33
+
+2021-11-05T12:59:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 30
+
+2021-11-05T12:59:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:30
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 30
+
+2021-11-05T13:08:15+00:00 CRITICAL syntax error, unexpected ''posts_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/html/wp-content/themes/little-bubble/functions.php on line 15
+
+2021-11-05T13:08:15+00:00 CRITICAL syntax error, unexpected ''posts_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/html/wp-content/themes/little-bubble/functions.php on line 15
+
+2021-11-05T13:08:18+00:00 CRITICAL syntax error, unexpected ''posts_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/html/wp-content/themes/little-bubble/functions.php on line 15
+
+2021-11-05T13:08:18+00:00 CRITICAL syntax error, unexpected ''posts_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/html/wp-content/themes/little-bubble/functions.php on line 15
+
+2021-11-05T13:08:25+00:00 CRITICAL syntax error, unexpected ''posts_per_page'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /var/www/html/wp-content/themes/little-bubble/functions.php on line 15
+
+2021-11-05T13:08:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:33
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 0, 0, 1, false, true, 'w6185257bb1137', '')
+#7 /var/www/html/wp-content/p in /var/www/html/wp-content/themes/little-bubble/functions.php on line 33
+

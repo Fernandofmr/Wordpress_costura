@@ -1,0 +1,140 @@
+2021-11-08T12:31:32+00:00 CRITICAL syntax error, unexpected '$loop' (T_VARIABLE) in /var/www/html/wp-content/themes/little-bubble/functions.php on line 141
+
+2021-11-08T12:31:32+00:00 CRITICAL syntax error, unexpected '$loop' (T_VARIABLE) in /var/www/html/wp-content/themes/little-bubble/functions.php on line 141
+
+2021-11-08T12:31:32+00:00 CRITICAL syntax error, unexpected '$loop' (T_VARIABLE) in /var/www/html/wp-content/themes/little-bubble/functions.php on line 141
+
+2021-11-08T12:31:32+00:00 CRITICAL syntax error, unexpected '$loop' (T_VARIABLE) in /var/www/html/wp-content/themes/little-bubble/functions.php on line 141
+
+2021-11-08T13:17:46+00:00 CRITICAL Uncaught Error: Call to undefined function get_thumbnail() in /var/www/html/wp-content/themes/little-bubble/functions.php:151
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '<h3>NOVEDADES</...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('<h3>NOVEDADES</...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 0, true, true, 39, '')
+#7 /var/www/html/wp-content/plugins/siteor in /var/www/html/wp-content/themes/little-bubble/functions.php on line 151
+
+2021-11-08T13:18:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_title() in /var/www/html/wp-content/themes/little-bubble/functions.php:151
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '<h3>NOVEDADES</...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('<h3>NOVEDADES</...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 0, true, true, 39, '')
+#7 /var/www/html/wp-content/plugins/siteorigin in /var/www/html/wp-content/themes/little-bubble/functions.php on line 151
+
+2021-11-08T13:19:06+00:00 CRITICAL Uncaught Error: Call to undefined function the_thumbnail() in /var/www/html/wp-content/themes/little-bubble/functions.php:151
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '<h3>NOVEDADES</...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('<h3>NOVEDADES</...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 0, true, true, 39, '')
+#7 /var/www/html/wp-content/plugins/siteor in /var/www/html/wp-content/themes/little-bubble/functions.php on line 151
+
+2021-11-08T13:42:27+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in /var/www/html/wp-content/themes/little-bubble/functions.php:156
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 1, false, true, 39, '')
+#7 /var/www/html/wp-content/plugins/si in /var/www/html/wp-content/themes/little-bubble/functions.php on line 156
+
+2021-11-08T13:42:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in /var/www/html/wp-content/themes/little-bubble/functions.php:156
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 1, false, true, 39, '')
+#7 /var/www/html/wp-content/plugins/siteorigi in /var/www/html/wp-content/themes/little-bubble/functions.php on line 156
+
+2021-11-08T13:42:55+00:00 CRITICAL Uncaught Error: Call to undefined function the_price() in /var/www/html/wp-content/themes/little-bubble/functions.php:156
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 1, false, true, 39, '')
+#7 /var/www/html/wp-content/plugins/siteorigi in /var/www/html/wp-content/themes/little-bubble/functions.php on line 156
+
+2021-11-08T13:43:06+00:00 CRITICAL Uncaught Error: Call to undefined function the_price() in /var/www/html/wp-content/themes/little-bubble/functions.php:156
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 1, false, true, 39, '')
+#7 /var/www/html/wp-content/plugins/siteorigi in /var/www/html/wp-content/themes/little-bubble/functions.php on line 156
+
+2021-11-08T14:08:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_price() in /var/www/html/wp-content/themes/little-bubble/functions.php:155
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 1, false, true, 39, '')
+#7 /var/www/html/wp-content/plugins/siteorigi in /var/www/html/wp-content/themes/little-bubble/functions.php on line 155
+
+2021-11-08T14:09:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_sale_price() in /var/www/html/wp-content/themes/little-bubble/functions.php:155
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 1, false, true, 39, '')
+#7 /var/www/html/wp-content/plugins/site in /var/www/html/wp-content/themes/little-bubble/functions.php on line 155
+
+2021-11-08T14:11:17+00:00 CRITICAL Uncaught Error: Call to undefined function get_price_html() in /var/www/html/wp-content/themes/little-bubble/functions.php:155
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 1, false, true, 39, '')
+#7 /var/www/html/wp-content/plugins/site in /var/www/html/wp-content/themes/little-bubble/functions.php on line 155
+
+2021-11-08T14:12:12+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_price() in /var/www/html/wp-content/themes/little-bubble/functions.php:155
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 1, false, true, 39, '')
+#7 /var/www/html/wp-content/plugins/siteo in /var/www/html/wp-content/themes/little-bubble/functions.php on line 155
+
+2021-11-08T14:12:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_price() in /var/www/html/wp-content/themes/little-bubble/functions.php:155
+Stack trace:
+#0 /var/www/html/wp-includes/shortcodes.php(343): lista_novedades('', '', 'lista-novedades')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /var/www/html/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(lista\\...', 'do_shortcode_ta...', '[lista-novedade...')
+#3 /var/www/html/wp-content/plugins/so-widgets-bundle/widgets/editor/editor.php(109): do_shortcode('[lista-novedade...')
+#4 /var/www/html/wp-content/plugins/so-widgets-bundle/base/siteorigin-widget.class.php(191): SiteOrigin_Widget_Editor_Widget->get_template_variables(Array, Array)
+#5 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(689): SiteOrigin_Widget->widget(Array, Array)
+#6 /var/www/html/wp-content/plugins/siteorigin-panels/inc/renderer.php(1029): SiteOrigin_Panels_Renderer->the_widget(Array, Array, 4, 0, 1, false, true, 39, '')
+#7 /var/www/html/wp-content/plugins/siteo in /var/www/html/wp-content/themes/little-bubble/functions.php on line 155
+
